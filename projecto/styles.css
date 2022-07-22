@@ -1,26 +1,27 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 h1{
-    margin-bottom: 5%;
+    margin: 5%;
 }
 #main-container{
     display: none;
     justify-content: center;
     text-align: center;
     position: relative;
-    min-height: 150px;
+    min-height: 250px;
 }
 #first-part{
     display: flex;
     flex-direction: column;
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(51, 51, 51);
     position: relative;
     padding: 3%;
     max-width: fit-content;
     border-right: 2px solid rgb(255, 255, 255);
+    max-height: 80%;
 }
 #currency-list{
     position: relative;
@@ -36,24 +37,21 @@ p{
     width: 100%;
 }
 #close{
-    margin-left: 50%;
-    margin-bottom: 70%;
+    margin-left: 75%;
+    margin-bottom: 10%;
     right: 0;
     display: block;
 }
 #second-part{
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(51, 51, 51);
     position: relative;
     min-width: 5%;
     padding: 1%;
 }
-#unhide{
-    position: absolute;
-    display: block;
-    width: 100%;
-    z-index: 5;
-    margin-top: 5%;
-}
 #recount{
     display: none;
+}
+#unhide{
+    margin: 0 auto;
+    text-align: center;
 }
